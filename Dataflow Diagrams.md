@@ -1,0 +1,45 @@
+# Data Flow Diagrams
+* Maps out the flow of information for any process or system
+* Shows data inputs, outputs, storage points, and routes between destinations
+
+## Components of a DFD      
+
+### External Entity
+* Outside system that sends or receives data
+* Communicates with the system in the diagram
+* Sources and destinations of information entering or leaving the system
+* Drawn on the edge of the diagram
+<img src="Images/external-entity.svg" alt="External Entity" width="108" height="90">
+
+### Processes
+* Anything that changes the data, producing an output
+* Described by a short label
+<img src="Images/process.svg" alt="Process" width="108" height="90">
+
+### Data Store
+* Files which hold information for later use (eg. database)
+* Has a simple label
+<img src="Images/data-store.svg" alt="Data Store" width="290.4" height="90">
+
+### Data Flow
+* The route that the data takes between the external entities, processes and data stores
+* Shown with arrows
+* Labelled with a short data name
+<img src="Images/data-flow.svg" alt="Data Flow" width="162" height="9.34">
+
+## Levels of DFD's
+
+### Level 0 (Context Diagram)
+* Basic overview of the whole system
+* Shows the sytem as a single high level process, with its relationship to external entities
+<img src="Images/level-0-dfd.svg" alt="Level 0 Data Flow Diagram" width="484" height="108">
+
+## Level 1
+* Provides a detailed breakout of pieces of the level 0 DFD
+* Main functions of the system highlighted
+* High level process of the level 0 DFD is broken down into its subprocesses
+<img src="Images/level-1-dfd.svg" alt="Level 1 Data Flow Diagram" width="480" height="494">
+
+## Level 2
+* Goes one step deeper into parts of the level 1 DFD
+<img src="Images/level-2-dfd.svg" alt="Level 2 Data Flow Diagram" width="480" height="480">
